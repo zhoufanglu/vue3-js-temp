@@ -6,6 +6,7 @@ const refDemo = () => import('../views/refDemo')
 
 //组件通讯
 const fatherCom = () => import('../views/vue3Message/fatherCom.vue')
+const fatherCom2 = () => import('../views/vue3Message2/fatherCom.vue')
 
 
 //模拟权限路由
@@ -40,6 +41,10 @@ const routes = [
     path: "/fatherCom",
     name: 'fatherCom',
     component: fatherCom,
+  },{
+    path: "/fatherCom2",
+    name: 'fatherCom2',
+    component: fatherCom2,
   },
 ]
 

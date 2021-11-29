@@ -17,6 +17,7 @@ module.exports = {
         resolvers: [ElementPlusResolver()],
       }),
     ],
-  }
+  },
+  lintOnSave: false
 };
 
