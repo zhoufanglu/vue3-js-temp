@@ -8,6 +8,11 @@ const refDemo = () => import('../views/refDemo')
 const fatherCom = () => import('../views/vue3Message/fatherCom.vue')
 const fatherCom2 = () => import('../views/vue3Message2/fatherCom.vue')
 
+//商品列表学习
+const userSelect = () => import('@/views/shop/userSelect.vue')
+
+const goodListAndSearch = () => import('@/views/shop/goodListAndSearch.vue')
+
 
 //模拟权限路由
 export const authRouter = [
@@ -45,6 +50,14 @@ const routes = [
     path: "/fatherCom2",
     name: 'fatherCom2',
     component: fatherCom2,
+  },{
+    path: "/userSelect",
+    name: 'userSelect',
+    component: userSelect,
+  },{
+    path: "/goodListAndSearch",
+    name: 'goodListAndSearch',
+    component: goodListAndSearch,
   },
 ]
 
