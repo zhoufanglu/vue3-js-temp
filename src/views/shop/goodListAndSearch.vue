@@ -33,7 +33,7 @@ import useGoodsList from './component/useGoodsList'
 import useSearchByGoodsName from './component/useSearchByGoodsName'
 const user = ref('小明')
 const {goodsList} = useGoodsList(user)
-const {goodsName,searchByGoodsName} = useSearchByGoodsName(goodsList)
+const {goodsName,searchByGoodsName} = useSearchByGoodsName(goodsList.value)
 </script>
 
 <style scoped lang="scss">

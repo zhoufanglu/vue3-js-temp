@@ -13,6 +13,9 @@ const userSelect = () => import('@/views/shop/userSelect.vue')
 
 const goodListAndSearch = () => import('@/views/shop/goodListAndSearch.vue')
 
+//异步渲染表格学习
+const tableExpand = () => import('@/views/tableExpand.vue')
+
 
 //模拟权限路由
 export const authRouter = [
@@ -58,6 +61,10 @@ const routes = [
     path: "/goodListAndSearch",
     name: 'goodListAndSearch',
     component: goodListAndSearch,
+  },{
+    path: "/tableExpand",
+    name: 'tableExpand',
+    component: tableExpand,
   },
 ]
 
